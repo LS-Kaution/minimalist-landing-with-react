@@ -23,6 +23,9 @@ export default {
         '4xl': '2.441rem',
         '5xl': '3.052rem',
       },
+      lineHeight: {
+        10: '54px',
+      },
       colors: {
         'white-bg': '#F2F0EB',
         'blue-bg': '#86C0D9',
@@ -44,6 +47,10 @@ export default {
           '0%': { transform: 'rotate(-10deg)' },
           '100%': { transform: 'rotate(0deg)' },
         },
+      },
+      spacing: {
+        '197': '197px',
+        '577': '577px',
       },
     },
   },
