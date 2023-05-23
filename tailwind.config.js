@@ -6,12 +6,12 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'gradient': 'linear-gradient(45deg, #F2F0EB 54%, #86C0D9 100%)'
+      },
       colors: {
         'white-bg': '#F2F0EB',
         'blue-bg': '#86C0D9',
-      },
-      gradientColorStopPositions: {
-        35: '35%',
       },
       animation: {
         'rotation': 'rotation 1s ease',
