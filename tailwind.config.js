@@ -43,19 +43,34 @@ export default {
         'slideH1': 'slideH1 1s ease',
         'slideH2': 'slideH2 1s ease',
         'rotation': 'rotation 1s ease',
+        'slideButtonsY': 'slideButtonsY 1s ease',
+        'slideButtonsX': 'slideButtonsX 1s ease',
+        'buttonsVisible': 'buttonsVisible 1s ease',
       },
       keyframes: {
         slideH1: {
           '0%': {transform: 'translateX(-15px)'},
-          '100%': {transform: 'translateX(0px)'}
+          '100%': {transform: 'translateX(0px)'},
         },
         slideH2: {
           '0%': {transform: 'translateX(-30px)'},
-          '100%': {transform: 'translateX(0px)'}
+          '100%': {transform: 'translateX(0px)'},
         },
         rotation: {
-          '0%': { transform: 'rotate(-10deg)' },
-          '100%': { transform: 'rotate(0deg)' },
+          '0%': {transform: 'rotate(-10deg)'},
+          '100%': {transform: 'rotate(0deg)'},
+        },
+        slideButtonsY: {
+          '0%': {transform: 'translateY(10px)'},
+          '100%': {transform: 'translateY(0px)'},
+        },
+        slideButtonsX: {
+          '0%': {transform: 'translateX(10px)'},
+          '100%': {transform: 'translateX(0px)'},
+        },
+        buttonsVisible: {
+          '0%': {opacity: '0'},
+          '100%': {opacity: '1'},
         },
       },
       spacing: {
