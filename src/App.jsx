@@ -17,8 +17,8 @@ function App() {
           </figure>
 
           <div className='flex flex-col gap-5'>
-            <h1 className='font-garamond text-[#423636] text-6xl mb-3'>Netherim</h1>
-            <h2 className='font-fraunces text-[#423636] italic text-custom'>Find all the links to your dragon prince here.</h2>
+            <h1 className='font-garamond text-[#423636] text-6xl mb-3 animate-slideH1'>Netherim</h1>
+            <h2 className='font-fraunces text-[#423636] italic text-custom animate-slideH2'>Find all the links to your dragon prince here.</h2>
             <ul className='h-197 w-577 flex gap-5 mt-8 flex-wrap'>
               <li>
                 <a href="https://discord.com/invite/netherim" target="_blank" rel="noopener noreferrer" className='flex justify-center 

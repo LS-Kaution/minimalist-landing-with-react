@@ -40,9 +40,19 @@ export default {
         '8': '8px',
       },
       animation: {
+        'slideH1': 'slideH1 1s ease',
+        'slideH2': 'slideH2 1s ease',
         'rotation': 'rotation 1s ease',
       },
       keyframes: {
+        slideH1: {
+          '0%': {transform: 'translateX(-15px)'},
+          '100%': {transform: 'translateX(0px)'}
+        },
+        slideH2: {
+          '0%': {transform: 'translateX(-30px)'},
+          '100%': {transform: 'translateX(0px)'}
+        },
         rotation: {
           '0%': { transform: 'rotate(-10deg)' },
           '100%': { transform: 'rotate(0deg)' },
