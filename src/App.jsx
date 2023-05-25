@@ -13,7 +13,7 @@ function App() {
       <section className="flex items-center gap-16">
         <figure>
           <img
-            src="/public/img-perfil.jpg"
+            src="/img-perfil.jpg"
             alt="perfil image"
             className="h-96 w-96 rounded-full
               border-3 border-[#42363687] p-2 animate-rotation"
