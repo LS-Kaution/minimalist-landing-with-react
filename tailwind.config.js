@@ -46,8 +46,22 @@ export default {
         'slideButtonsY': 'slideButtonsY 1s ease',
         'slideButtonsX': 'slideButtonsX 1s ease',
         'buttonsVisible': 'buttonsVisible 1s ease',
+        'bgColorAnimation': 'bgColorAnimation 1s ease-in-out',
       },
       keyframes: {
+        bgColorAnimation: {
+          '0%': {
+            visibility: 'visible',
+            opacity: '1'
+          },
+          '50%': {
+            opacity: '0.5'
+          },
+          '100%': {
+            visibility: 'hidden',
+            opacity: '0'
+          },
+        },
         slideH1: {
           '0%': {transform: 'translateX(-15px)'},
           '100%': {transform: 'translateX(0px)'},
