@@ -1,7 +1,7 @@
 import * as React from "react"
 
 const CoachingSvg = (props) => (
-  <svg
+  <svg className="h-6 w-5 fill-[#423636] duration-300 group-hover:fill-[#C89B3C]"
     xmlns="http://www.w3.org/2000/svg"
     width={973.333}
     height={973.333}

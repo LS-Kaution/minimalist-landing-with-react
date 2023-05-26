@@ -1,7 +1,7 @@
 import * as React from "react"
 
 const PatreonSvg = (props) => (
-  <svg
+  <svg className="h-6 w-5 fill-[#423636] duration-300 group-hover:fill-[#FA7C34]"
     xmlns="http://www.w3.org/2000/svg"
     xmlSpace="preserve"
     width={512}

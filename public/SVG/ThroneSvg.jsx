@@ -1,7 +1,7 @@
 import * as React from "react"
 
 const ThroneSvg = (props) => (
-  <svg
+  <svg className="h-6 w-5 fill-[#423636] duration-300 group-hover:fill-[#5A4DF7]"
     xmlns="http://www.w3.org/2000/svg"
     width={512}
     height={512}
